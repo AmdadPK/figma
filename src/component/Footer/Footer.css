@@ -1,0 +1,71 @@
+.top {
+    background-color: #C2A5F9;
+    padding: 2rem 0;
+}
+
+.top ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul li {
+    color: var(--div-color);
+    text-transform: uppercase;
+    font-size: var(--small-font);
+    font-weight: var(--medium-weight);
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    border: 2px solid var(--div-color);
+    padding: 1rem 2rem;
+    border-radius: 30px    ;
+}
+
+.bottom {
+    background-color: #9E78E8;
+    padding: 2rem 0;
+}
+
+.footer-button-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-button-menu .left {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-button-menu .left > span {
+    font-size: var(--small-font);
+    color: var(--div-color);
+}
+
+.footer-button-menu .left ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-button-menu .left ul li {
+    color: var(--div-color);
+    cursor: pointer;
+    font-size: var(--small-font);
+}
+
+.footer-button-menu .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--div-color);
+}
+
+.footer-button-menu .right > span:nth-child(1) {
+    font-size: var(--h2);
+}
+
+.footer-button-menu .right > span:nth-child(2) {
+    font-size: var(--small-font);
+}

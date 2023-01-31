@@ -1,0 +1,29 @@
+.navbar {
+    padding: 2rem 0;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: var(--index-1000);
+}
+
+.navbar-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu ul li {
+    font-size: var(--small-font);
+    text-transform: uppercase;
+    font-weight: var(--medium-weight);
+    cursor: pointer;
+    color: var(--div-color);
+}
+
+.logo {
+    font-size: var(--h2) !important;
+    font-weight: var(--bold-weight) !important;
+    font-style: italic;
+}
